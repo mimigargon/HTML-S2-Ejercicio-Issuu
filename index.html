@@ -10,22 +10,22 @@
 <body>
     <nav> 
         <img class="logo" src="./Images/issuu-vector-logo.png">
-        <span class="signin">Already a user?<br><a href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Sign in</a></span>
+        <span id="signin">Already a user?<br><a href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Sign in</a></span>
     </nav><hr>
  
 
     <main>
         <div class="form-container">
             <form method="post" action="/next-page">
-                <h1>Create an Issuu Account</h1>
+                <h1><strong>Create an Issuu Account.</strong></h1>
                 <div class="button-container">
                     <label for="sigin-google">
-                <button type="submit" class="signin-google"><img class="google" src="./Images/profile_vrt_raw_bytes_1587515358_10512 (1).png">Sign in with Google</button>
+                <button type="submit" class="signin-google"><img class="google" src="./Images/profile_vrt_raw_bytes_1587515358_10512 (1).png"><p class="google-text">Sign in with Google</p></button>
             </label>
             </div>
             <div class="button-container2">
                 <label for="signin-facebook">
-                <button type="submit" class="signin-facebook"><img class="facebook" src="./Images/toppng.com-facebook-logo-white-501x425.png">Continue with Facebook</button>
+                <button type="submit" class="signin-facebook"><img class="facebook" src="./Images/toppng.com-facebook-logo-white-501x425.png"><p class="facebook-text">Continue with Facebook</p></button>
             </label>
             </div>
             <div class="text">
@@ -46,24 +46,21 @@
             <div class="checkbox-container">
                 <span>
                     <input class="checkbox" type="checkbox">
-                <label for="checkbox">
+                <label class="checkbox-text" for="checkbox">
                     I accept the <a href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Terms of Service</a> and the <a href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Professional Terms of Service.</a>
                 </label>
             </span>
             </div>
             <div class="submit-container">
-                <button class="submit" type="submit">Create Account</button>
+                <button class="submit" type="submit"><p class="account-text">Create Account</p></button>
             </div>
             </form>
         </div>
     </main>
     <footer>
-        <div class="issuu">
-            <p>Issuu Inc.</p>
-            <p><a href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Terms</a></p>
-            <p><a href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Privacy</a></p>
-            <p><a href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">DMCA</a></p>
-        </div>
+        <nav><hr class="footer">
+        <span id="issuu">Issuu Inc.    <a id="terms" href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Terms</a> <a id="privacy" href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">Privacy</a> <a id="dmca" href="https://issuu.com/?issuu_product=landing-pages&issuu_subproduct=tryissuu">DMCA</a></span>
+    </nav>
     </footer>
 </body>
 </html>

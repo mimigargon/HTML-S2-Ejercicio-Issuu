@@ -41,31 +41,43 @@
 
 img.facebook {
     width: 35px;
+    height: 35px;
+    position: relative;
+    top: 7px;
 }
 
 img.google {
     width: 33px;
+    height: 33px;
+    position: relative;
+    top: 6px;
+    
 }
 .signin-google {
     background-color: #4285f4;
     border: none;
     border-radius: 2px;
+    padding: 0px 5px;
 }
 
 .google-text {
     color: white;
     display: inline;
+    line-height: 45px;
+    
 }
 
 .signin-facebook {
     background-color: #3b5998;
     border: none;
     border-radius: 2px;
+    padding: 0px 5px;
 }
 
 .facebook-text {
     color: white;
     display: inline;
+    line-height: 48px;
 }
 
 .text {
